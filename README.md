@@ -11,21 +11,22 @@ To use this library, include these two script tags into the head of your HTML:
 
 Then, simply include your Markdown inside of `<code-markdown>` tags:
 
-```html
+~~~html
 <code-markdown>
 # Markdown test
 
 We can make stuff **bold**, *italicized*, even put in [links](http://amussey.com)!
 
-```
-def winning(self):
-    try:
-        self.name = 'Andrew'
-    except Exception as e:
-        print e
-```
+## Code Blocks
+
+    def winning(self):
+        try:
+            self.name = 'Andrew'
+        except Exception as e:
+            print e
+
 <code-markdown>
-```
+~~~
 
 
 
