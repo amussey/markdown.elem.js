@@ -1,4 +1,4 @@
-# Custom <Markdown> tag for HTML
+# Custom `<Markdown>` tag for HTML
 
 Markdown.elem.js allows you to insert Markdown in-line with HTML that will be converted on the fly client-side.
 
