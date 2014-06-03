@@ -1,22 +1,22 @@
 <html>
 <head>
     <title>Markdown.elem.js Demo</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
     <script src="../src/markdown.elem.js"></script>
 </head>
 <body>
-    <code-markdown>
-# Markdown Test
+<code-markdown>
+# Markdown test
 
-We can make text **bold**, *italicized*, even put in [links](http://amussey.com)!
+We can make stuff **bold**, *italicized*, even put in [links](http://amussey.com)!
 
-```
-def winning(self):
-    try:
-        self.name = 'Andrew'
-    except Exception as e:
-        print e
-```
-    <code-markdown>
+## Code Blocks
+
+    def winning(self):
+        try:
+            self.name = 'Andrew'
+        except Exception as e:
+            print e
+
+<code-markdown>
     </body>
 </html>
